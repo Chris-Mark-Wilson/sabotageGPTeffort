@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(30, 15px);
+}
+
+.cell {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ccc;
+}
+
+.player {
+  background-color: blue;
+}
+
+.enemy {
+  background-color: red;
+}
+/* ... Existing styles ... */
+
+.explosive-box {
+  background-color: yellow;
+}
+
+/* Optional: Add a countdown timer */
+.countdown {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 24px;
+  color: white;
+}
+
+   
