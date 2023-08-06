@@ -103,7 +103,8 @@ function App() {
       setIsBombPlaced(true);
       setBombPosition({ ...playerPosition });
       setBombCountdown(BOMB_COUNTDOWN);
-    }
+    } // ok nice, clean code, does what it says on the tin
+    // to a point.. why is they keydown element passed in?
   };
 //=======================================================
 
